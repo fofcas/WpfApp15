@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="500.353" Background="LawnGreen" >
+    <Grid>
+
+        <Label  Content="Введите дюймы для перевода в см" HorizontalAlignment="Left" Margin="5,9,0,0" VerticalAlignment="Top" Height="34" Width="224" Grid.ColumnSpan="2"  />
+        <TextBlock  x:Name="Vivod" HorizontalAlignment="Left" Margin="262,60,0,0" TextWrapping="Wrap" Text="" Background="White" VerticalAlignment="Top" Height="78" Width="223" RenderTransformOrigin="0.327,0.814"/>
+        <TextBox x:Name="N" HorizontalAlignment="Left" Height="42" Margin="9,69,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145"/>
+        <ListBox x:Name="Tabl" HorizontalAlignment="Left" Height="298" Margin="8,115,0,0" VerticalAlignment="Top" Width="249"/>
+        <Button Content="Дюймы --> См" HorizontalAlignment="Left" Margin="160,76,0,0" VerticalAlignment="Top" Width="98" Click="Button_Click" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
